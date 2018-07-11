@@ -6,3 +6,4 @@ resource "aws_s3_bucket" "terraform_tfstate_strl" {
     enabled = true
   }
 }
+                      
