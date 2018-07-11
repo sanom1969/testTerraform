@@ -1,3 +1,7 @@
+provider "aws" {
+    profile = "strl-profile-sanom"
+}
+
 terraform {
     backend "s3" {
         bucket = "strl-terraform-state-repository"
